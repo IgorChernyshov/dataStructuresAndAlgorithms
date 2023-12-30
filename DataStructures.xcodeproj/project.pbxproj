@@ -11,6 +11,8 @@
 		CF3197562B3DDF37000A56DC /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3197552B3DDF37000A56DC /* LinkedList.swift */; };
 		CF3197582B3DDF4F000A56DC /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3197572B3DDF4F000A56DC /* Node.swift */; };
 		CF31975A2B3DDF6C000A56DC /* LinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3197592B3DDF6C000A56DC /* LinkedListTests.swift */; };
+		CFB081AF2B40324F006029A8 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB081AE2B40324F006029A8 /* Stack.swift */; };
+		CFB081B12B40326E006029A8 /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB081B02B40326E006029A8 /* StackTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		CF3197552B3DDF37000A56DC /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		CF3197572B3DDF4F000A56DC /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		CF3197592B3DDF6C000A56DC /* LinkedListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTests.swift; sourceTree = "<group>"; };
+		CFB081AE2B40324F006029A8 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		CFB081B02B40326E006029A8 /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,7 @@
 			children = (
 				CF31974E2B3DDF2B000A56DC /* main.swift */,
 				CFB081AC2B403219006029A8 /* LinkedList */,
+				CFB081AD2B40323F006029A8 /* Stack */,
 				CF31974C2B3DDF2B000A56DC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +74,15 @@
 				CF3197592B3DDF6C000A56DC /* LinkedListTests.swift */,
 			);
 			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		CFB081AD2B40323F006029A8 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				CFB081AE2B40324F006029A8 /* Stack.swift */,
+				CFB081B02B40326E006029A8 /* StackTests.swift */,
+			);
+			path = Stack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF3197582B3DDF4F000A56DC /* Node.swift in Sources */,
+				CFB081AF2B40324F006029A8 /* Stack.swift in Sources */,
+				CFB081B12B40326E006029A8 /* StackTests.swift in Sources */,
 				CF3197562B3DDF37000A56DC /* LinkedList.swift in Sources */,
 				CF31975A2B3DDF6C000A56DC /* LinkedListTests.swift in Sources */,
 				CF31974F2B3DDF2B000A56DC /* main.swift in Sources */,
