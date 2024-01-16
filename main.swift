@@ -8,4 +8,6 @@
 import Foundation
 
 // LinkedListTests().runTests()
-StackTests().runTests()
+// StackTests().runTests()
+// QueueArrayTests().runTests()
+QueueLinkedListTests().runTests()
