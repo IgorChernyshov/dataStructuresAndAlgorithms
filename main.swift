@@ -10,4 +10,5 @@ import Foundation
 // LinkedListTests().runTests()
 // StackTests().runTests()
 // QueueArrayTests().runTests()
-QueueLinkedListTests().runTests()
+// QueueLinkedListTests().runTests()
+QueueStackTests().runTests()

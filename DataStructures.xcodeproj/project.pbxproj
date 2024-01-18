@@ -17,6 +17,8 @@
 		CF5C86962B56D18300C16A11 /* QueueLinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86952B56D18300C16A11 /* QueueLinkedListTests.swift */; };
 		CF5C86992B583F1A00C16A11 /* RingBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86982B583F1A00C16A11 /* RingBuffer.swift */; };
 		CF5C869C2B5844EA00C16A11 /* QueueRingBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C869B2B5844EA00C16A11 /* QueueRingBuffer.swift */; };
+		CF5C86A12B597A7400C16A11 /* QueueStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86A02B597A7400C16A11 /* QueueStack.swift */; };
+		CF5C86A32B597CFD00C16A11 /* QueueStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86A22B597CFD00C16A11 /* QueueStackTests.swift */; };
 		CFB081AF2B40324F006029A8 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB081AE2B40324F006029A8 /* Stack.swift */; };
 		CFB081B12B40326E006029A8 /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB081B02B40326E006029A8 /* StackTests.swift */; };
 		CFB081B42B42B7C5006029A8 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB081B32B42B7C5006029A8 /* Queue.swift */; };
@@ -48,6 +50,8 @@
 		CF5C86952B56D18300C16A11 /* QueueLinkedListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueLinkedListTests.swift; sourceTree = "<group>"; };
 		CF5C86982B583F1A00C16A11 /* RingBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingBuffer.swift; sourceTree = "<group>"; };
 		CF5C869B2B5844EA00C16A11 /* QueueRingBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueRingBuffer.swift; sourceTree = "<group>"; };
+		CF5C86A02B597A7400C16A11 /* QueueStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueStack.swift; sourceTree = "<group>"; };
+		CF5C86A22B597CFD00C16A11 /* QueueStackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueStackTests.swift; sourceTree = "<group>"; };
 		CFB081AE2B40324F006029A8 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		CFB081B02B40326E006029A8 /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
 		CFB081B32B42B7C5006029A8 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -121,6 +125,15 @@
 			path = RingBuffer;
 			sourceTree = "<group>";
 		};
+		CF5C869F2B597A6700C16A11 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C86A02B597A7400C16A11 /* QueueStack.swift */,
+				CF5C86A22B597CFD00C16A11 /* QueueStackTests.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
 		CFB081AC2B403219006029A8 /* LinkedList */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +160,7 @@
 				CFB081B92B42DA04006029A8 /* Array */,
 				CF5C868A2B56C94E00C16A11 /* LinkedList */,
 				CF5C869A2B58447000C16A11 /* RingBuffer */,
+				CF5C869F2B597A6700C16A11 /* Stack */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -223,7 +237,9 @@
 				CF5C86962B56D18300C16A11 /* QueueLinkedListTests.swift in Sources */,
 				CFB081B42B42B7C5006029A8 /* Queue.swift in Sources */,
 				CF5C86922B56CA8E00C16A11 /* DoublyLinkedList.swift in Sources */,
+				CF5C86A32B597CFD00C16A11 /* QueueStackTests.swift in Sources */,
 				CF5C86992B583F1A00C16A11 /* RingBuffer.swift in Sources */,
+				CF5C86A12B597A7400C16A11 /* QueueStack.swift in Sources */,
 				CF5C869C2B5844EA00C16A11 /* QueueRingBuffer.swift in Sources */,
 				CFB081AF2B40324F006029A8 /* Stack.swift in Sources */,
 				CFB081B12B40326E006029A8 /* StackTests.swift in Sources */,

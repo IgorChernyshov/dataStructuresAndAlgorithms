@@ -25,9 +25,3 @@ struct QueueRingBuffer<T>: Queue {
 		isEmpty ? nil : ringBuffer.read()
 	}
 }
-
-extension QueueRingBuffer: CustomStringConvertible {
-	var description: String {
-		ringBuffer.description
-	}
-}
