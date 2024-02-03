@@ -16,4 +16,5 @@ import Foundation
 // BinaryTreeTests().runTests()
 // BinarySearchTreeTests().runTests()
 // TrieTests().runTests()
-BinarySearchTests().runTests()
+// BinarySearchTests().runTests()
+HeapTests().runTests()
