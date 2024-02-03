@@ -14,4 +14,6 @@ import Foundation
 // QueueStackTests().runTests()
 // TreeTests().runTests()
 // BinaryTreeTests().runTests()
-BinarySearchTreeTests().runTests()
+// BinarySearchTreeTests().runTests()
+// TrieTests().runTests()
+BinarySearchTests().runTests()

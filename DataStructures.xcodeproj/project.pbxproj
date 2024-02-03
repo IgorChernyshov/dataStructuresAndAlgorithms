@@ -25,6 +25,11 @@
 		CF5C86B12B5BBE5300C16A11 /* BinaryTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86B02B5BBE5300C16A11 /* BinaryTreeTests.swift */; };
 		CF5C86B32B5C036700C16A11 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86B22B5C036700C16A11 /* BinarySearchTree.swift */; };
 		CF5C86B62B5C062B00C16A11 /* BinarySearchTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86B52B5C062B00C16A11 /* BinarySearchTreeTests.swift */; };
+		CF5C86BE2B5D211700C16A11 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86BD2B5D211700C16A11 /* TrieNode.swift */; };
+		CF5C86C02B60D9FF00C16A11 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86BF2B60D9FF00C16A11 /* Trie.swift */; };
+		CF5C86C22B60DD0300C16A11 /* TrieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86C12B60DD0300C16A11 /* TrieTests.swift */; };
+		CF5C86C52B6CFFAC00C16A11 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86C42B6CFFAC00C16A11 /* BinarySearch.swift */; };
+		CF5C86C72B6D01A800C16A11 /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86C62B6D01A800C16A11 /* BinarySearchTests.swift */; };
 		CFB081AF2B40324F006029A8 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB081AE2B40324F006029A8 /* Stack.swift */; };
 		CFB081B12B40326E006029A8 /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB081B02B40326E006029A8 /* StackTests.swift */; };
 		CFB081B42B42B7C5006029A8 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB081B32B42B7C5006029A8 /* Queue.swift */; };
@@ -64,6 +69,11 @@
 		CF5C86B02B5BBE5300C16A11 /* BinaryTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeTests.swift; sourceTree = "<group>"; };
 		CF5C86B22B5C036700C16A11 /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 		CF5C86B52B5C062B00C16A11 /* BinarySearchTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTreeTests.swift; sourceTree = "<group>"; };
+		CF5C86BD2B5D211700C16A11 /* TrieNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieNode.swift; sourceTree = "<group>"; };
+		CF5C86BF2B60D9FF00C16A11 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		CF5C86C12B60DD0300C16A11 /* TrieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieTests.swift; sourceTree = "<group>"; };
+		CF5C86C42B6CFFAC00C16A11 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		CF5C86C62B6D01A800C16A11 /* BinarySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTests.swift; sourceTree = "<group>"; };
 		CFB081AE2B40324F006029A8 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		CFB081B02B40326E006029A8 /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
 		CFB081B32B42B7C5006029A8 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -86,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				CF31974E2B3DDF2B000A56DC /* main.swift */,
+				CF5C86C32B6CFF9900C16A11 /* BinarySearch */,
 				CF5C86902B56CA8700C16A11 /* DoublyLinkedList */,
 				CFB081AC2B403219006029A8 /* LinkedList */,
 				CF31974C2B3DDF2B000A56DC /* Products */,
@@ -153,6 +164,7 @@
 				CF5C86B42B5C036A00C16A11 /* Binary Search */,
 				CF5C86AD2B5BBCBC00C16A11 /* Binary */,
 				CF5C86A92B5BBC8D00C16A11 /* General */,
+				CF5C86BC2B5D210500C16A11 /* Trie */,
 			);
 			path = Trees;
 			sourceTree = "<group>";
@@ -182,6 +194,25 @@
 				CF5C86B52B5C062B00C16A11 /* BinarySearchTreeTests.swift */,
 			);
 			path = "Binary Search";
+			sourceTree = "<group>";
+		};
+		CF5C86BC2B5D210500C16A11 /* Trie */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C86BF2B60D9FF00C16A11 /* Trie.swift */,
+				CF5C86BD2B5D211700C16A11 /* TrieNode.swift */,
+				CF5C86C12B60DD0300C16A11 /* TrieTests.swift */,
+			);
+			path = Trie;
+			sourceTree = "<group>";
+		};
+		CF5C86C32B6CFF9900C16A11 /* BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C86C42B6CFFAC00C16A11 /* BinarySearch.swift */,
+				CF5C86C62B6D01A800C16A11 /* BinarySearchTests.swift */,
+			);
+			path = BinarySearch;
 			sourceTree = "<group>";
 		};
 		CFB081AC2B403219006029A8 /* LinkedList */ = {
@@ -287,9 +318,12 @@
 				CF5C86B32B5C036700C16A11 /* BinarySearchTree.swift in Sources */,
 				CFB081B82B42C0BF006029A8 /* QueueArrayTests.swift in Sources */,
 				CF5C86962B56D18300C16A11 /* QueueLinkedListTests.swift in Sources */,
+				CF5C86C02B60D9FF00C16A11 /* Trie.swift in Sources */,
 				CFB081B42B42B7C5006029A8 /* Queue.swift in Sources */,
 				CF5C86922B56CA8E00C16A11 /* DoublyLinkedList.swift in Sources */,
+				CF5C86C72B6D01A800C16A11 /* BinarySearchTests.swift in Sources */,
 				CF5C86A32B597CFD00C16A11 /* QueueStackTests.swift in Sources */,
+				CF5C86C22B60DD0300C16A11 /* TrieTests.swift in Sources */,
 				CF5C86992B583F1A00C16A11 /* RingBuffer.swift in Sources */,
 				CF5C86A12B597A7400C16A11 /* QueueStack.swift in Sources */,
 				CF5C86B62B5C062B00C16A11 /* BinarySearchTreeTests.swift in Sources */,
@@ -300,7 +334,9 @@
 				CF5C86A62B5BB57C00C16A11 /* TreeNode.swift in Sources */,
 				CF3197562B3DDF37000A56DC /* LinkedList.swift in Sources */,
 				CF31975A2B3DDF6C000A56DC /* LinkedListTests.swift in Sources */,
+				CF5C86C52B6CFFAC00C16A11 /* BinarySearch.swift in Sources */,
 				CF5C86942B56CCD900C16A11 /* DoublyLinkedList.Node.swift in Sources */,
+				CF5C86BE2B5D211700C16A11 /* TrieNode.swift in Sources */,
 				CF5C86A82B5BB64800C16A11 /* TreeTests.swift in Sources */,
 				CF31974F2B3DDF2B000A56DC /* main.swift in Sources */,
 				CF5C868C2B56C96100C16A11 /* QueueLinkedList.swift in Sources */,
