@@ -19,4 +19,5 @@ import Foundation
 // BinarySearchTests().runTests()
 // HeapTests().runTests()
 // PriorityQueueTests().runTests()
-BubbleSortTests().runTests()
+// BubbleSortTests().runTests()
+SelectionSortTests().runTests()
