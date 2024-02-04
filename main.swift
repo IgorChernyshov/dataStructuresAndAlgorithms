@@ -21,4 +21,5 @@ import Foundation
 // PriorityQueueTests().runTests()
 // BubbleSortTests().runTests()
 // SelectionSortTests().runTests()
-InsertionSortTests().runTests()
+// InsertionSortTests().runTests()
+MergeSortTests().runTests()
