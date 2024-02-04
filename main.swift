@@ -22,4 +22,5 @@ import Foundation
 // BubbleSortTests().runTests()
 // SelectionSortTests().runTests()
 // InsertionSortTests().runTests()
-MergeSortTests().runTests()
+// MergeSortTests().runTests()
+RadixSortTests().runTests()
