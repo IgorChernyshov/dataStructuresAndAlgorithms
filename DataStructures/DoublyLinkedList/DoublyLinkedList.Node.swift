@@ -10,8 +10,8 @@ extension DoublyLinkedList {
 	final class Node<Value>: CustomStringConvertible {
 
 		var value: Value
-		var next: Node<Value>?
-		var previous: Node<Value>?
+		var next: Node?
+		var previous: Node?
 
 		init(value: Value) {
 			self.value = value

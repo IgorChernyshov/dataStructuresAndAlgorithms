@@ -34,6 +34,8 @@
 		CF5C86CC2B6E652100C16A11 /* HeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86CB2B6E652100C16A11 /* HeapTests.swift */; };
 		CF5C86CF2B6F8EFB00C16A11 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86CE2B6F8EFB00C16A11 /* PriorityQueue.swift */; };
 		CF5C86D12B6F8FF500C16A11 /* PriorityQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86D02B6F8FF500C16A11 /* PriorityQueueTests.swift */; };
+		CF5C86D62B6F923F00C16A11 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86D52B6F923F00C16A11 /* BubbleSort.swift */; };
+		CF5C86D82B6FC0FA00C16A11 /* BubbleSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86D72B6FC0FA00C16A11 /* BubbleSortTests.swift */; };
 		CFB081AF2B40324F006029A8 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB081AE2B40324F006029A8 /* Stack.swift */; };
 		CFB081B12B40326E006029A8 /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB081B02B40326E006029A8 /* StackTests.swift */; };
 		CFB081B42B42B7C5006029A8 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB081B32B42B7C5006029A8 /* Queue.swift */; };
@@ -82,6 +84,8 @@
 		CF5C86CB2B6E652100C16A11 /* HeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapTests.swift; sourceTree = "<group>"; };
 		CF5C86CE2B6F8EFB00C16A11 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		CF5C86D02B6F8FF500C16A11 /* PriorityQueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueueTests.swift; sourceTree = "<group>"; };
+		CF5C86D52B6F923F00C16A11 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		CF5C86D72B6FC0FA00C16A11 /* BubbleSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSortTests.swift; sourceTree = "<group>"; };
 		CFB081AE2B40324F006029A8 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		CFB081B02B40326E006029A8 /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
 		CFB081B32B42B7C5006029A8 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -104,16 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				CF31974E2B3DDF2B000A56DC /* main.swift */,
-				CF5C86C32B6CFF9900C16A11 /* BinarySearch */,
-				CF5C86902B56CA8700C16A11 /* DoublyLinkedList */,
-				CF5C86C82B6E30BA00C16A11 /* Heap */,
-				CFB081AC2B403219006029A8 /* LinkedList */,
+				CF5C86D32B6F922E00C16A11 /* Algorithms */,
+				CF5C86D22B6F921200C16A11 /* DataStructures */,
 				CF31974C2B3DDF2B000A56DC /* Products */,
-				CF5C86CD2B6F8EDF00C16A11 /* PriorityQueue */,
-				CFB081B22B42B7B0006029A8 /* Queue */,
-				CF5C86972B583F0A00C16A11 /* RingBuffer */,
-				CFB081AD2B40323F006029A8 /* Stack */,
-				CF5C86A42B5BB56A00C16A11 /* Trees */,
 			);
 			sourceTree = "<group>";
 		};
@@ -243,6 +240,39 @@
 			path = PriorityQueue;
 			sourceTree = "<group>";
 		};
+		CF5C86D22B6F921200C16A11 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C86CD2B6F8EDF00C16A11 /* PriorityQueue */,
+				CFB081B22B42B7B0006029A8 /* Queue */,
+				CF5C86972B583F0A00C16A11 /* RingBuffer */,
+				CFB081AD2B40323F006029A8 /* Stack */,
+				CF5C86A42B5BB56A00C16A11 /* Trees */,
+				CF5C86C32B6CFF9900C16A11 /* BinarySearch */,
+				CF5C86902B56CA8700C16A11 /* DoublyLinkedList */,
+				CF5C86C82B6E30BA00C16A11 /* Heap */,
+				CFB081AC2B403219006029A8 /* LinkedList */,
+			);
+			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		CF5C86D32B6F922E00C16A11 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C86D42B6F923700C16A11 /* BubbleSort */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		CF5C86D42B6F923700C16A11 /* BubbleSort */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C86D52B6F923F00C16A11 /* BubbleSort.swift */,
+				CF5C86D72B6FC0FA00C16A11 /* BubbleSortTests.swift */,
+			);
+			path = BubbleSort;
+			sourceTree = "<group>";
+		};
 		CFB081AC2B403219006029A8 /* LinkedList */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,6 +382,7 @@
 				CF5C86922B56CA8E00C16A11 /* DoublyLinkedList.swift in Sources */,
 				CF5C86C72B6D01A800C16A11 /* BinarySearchTests.swift in Sources */,
 				CF5C86CC2B6E652100C16A11 /* HeapTests.swift in Sources */,
+				CF5C86D62B6F923F00C16A11 /* BubbleSort.swift in Sources */,
 				CF5C86A32B597CFD00C16A11 /* QueueStackTests.swift in Sources */,
 				CF5C86C22B60DD0300C16A11 /* TrieTests.swift in Sources */,
 				CF5C86D12B6F8FF500C16A11 /* PriorityQueueTests.swift in Sources */,
@@ -371,6 +402,7 @@
 				CF5C86A82B5BB64800C16A11 /* TreeTests.swift in Sources */,
 				CF31974F2B3DDF2B000A56DC /* main.swift in Sources */,
 				CF5C86CA2B6E30C900C16A11 /* Heap.swift in Sources */,
+				CF5C86D82B6FC0FA00C16A11 /* BubbleSortTests.swift in Sources */,
 				CF5C868C2B56C96100C16A11 /* QueueLinkedList.swift in Sources */,
 				CFB081B62B42C063006029A8 /* QueueArray.swift in Sources */,
 			);
