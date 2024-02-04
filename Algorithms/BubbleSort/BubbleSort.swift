@@ -5,21 +5,22 @@
 //  Created by Игорь Чернышов on 04.02.2024.
 //
 
-func bubbleSort<Element>(_ array: inout [Element]) where Element: Comparable {
-	guard array.count >= 2 else { return }
+func bubbleSort<T>(_ collection: inout T) where T: MutableCollection, T.Element: Comparable {
+	guard collection.count >= 2 else { return }
 
-	for end in (1..<array.count).reversed() {
+	for end in collection.indices.reversed() {
 		var didSwap = false
+		var current = collection.startIndex
 
-		for current in 0..<end {
-			if array[current] > array[current + 1] {
-				array.swapAt(current, current + 1)
+		while current < end {
+			let next = collection.index(after: current)
+			if collection[current] > collection[next] {
+				collection.swapAt(current, next)
 				didSwap = true
 			}
+			current = next
 		}
 
-		if !didSwap {
-			return
-		}
+		if !didSwap { return }
 	}
 }
