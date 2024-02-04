@@ -20,4 +20,5 @@ import Foundation
 // HeapTests().runTests()
 // PriorityQueueTests().runTests()
 // BubbleSortTests().runTests()
-SelectionSortTests().runTests()
+// SelectionSortTests().runTests()
+InsertionSortTests().runTests()

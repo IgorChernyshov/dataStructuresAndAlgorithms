@@ -1,11 +1,11 @@
 //
-//  SelectionSortTests.swift
+//  InsertionSortTests.swift
 //  DataStructures
 //
 //  Created by Игорь Чернышов on 04.02.2024.
 //
 
-struct SelectionSortTests {
+struct InsertionSortTests {
 
 	func runTests() {
 		testSortArray()
@@ -14,7 +14,7 @@ struct SelectionSortTests {
 	private func testSortArray() {
 		var array = [9, 4, 10, 3]
 		print("Original: \(array)")
-		selectionSort(&array)
-		print("Selection sorted: \(array)")
+		insertionSort(&array)
+		print("Insertion sorted: \(array)")
 	}
 }
