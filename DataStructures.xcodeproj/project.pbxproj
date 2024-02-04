@@ -32,6 +32,8 @@
 		CF5C86C72B6D01A800C16A11 /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86C62B6D01A800C16A11 /* BinarySearchTests.swift */; };
 		CF5C86CA2B6E30C900C16A11 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86C92B6E30C900C16A11 /* Heap.swift */; };
 		CF5C86CC2B6E652100C16A11 /* HeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86CB2B6E652100C16A11 /* HeapTests.swift */; };
+		CF5C86CF2B6F8EFB00C16A11 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86CE2B6F8EFB00C16A11 /* PriorityQueue.swift */; };
+		CF5C86D12B6F8FF500C16A11 /* PriorityQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86D02B6F8FF500C16A11 /* PriorityQueueTests.swift */; };
 		CFB081AF2B40324F006029A8 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB081AE2B40324F006029A8 /* Stack.swift */; };
 		CFB081B12B40326E006029A8 /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB081B02B40326E006029A8 /* StackTests.swift */; };
 		CFB081B42B42B7C5006029A8 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB081B32B42B7C5006029A8 /* Queue.swift */; };
@@ -78,6 +80,8 @@
 		CF5C86C62B6D01A800C16A11 /* BinarySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTests.swift; sourceTree = "<group>"; };
 		CF5C86C92B6E30C900C16A11 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		CF5C86CB2B6E652100C16A11 /* HeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapTests.swift; sourceTree = "<group>"; };
+		CF5C86CE2B6F8EFB00C16A11 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		CF5C86D02B6F8FF500C16A11 /* PriorityQueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueueTests.swift; sourceTree = "<group>"; };
 		CFB081AE2B40324F006029A8 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		CFB081B02B40326E006029A8 /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
 		CFB081B32B42B7C5006029A8 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 				CF5C86C82B6E30BA00C16A11 /* Heap */,
 				CFB081AC2B403219006029A8 /* LinkedList */,
 				CF31974C2B3DDF2B000A56DC /* Products */,
+				CF5C86CD2B6F8EDF00C16A11 /* PriorityQueue */,
 				CFB081B22B42B7B0006029A8 /* Queue */,
 				CF5C86972B583F0A00C16A11 /* RingBuffer */,
 				CFB081AD2B40323F006029A8 /* Stack */,
@@ -229,6 +234,15 @@
 			path = Heap;
 			sourceTree = "<group>";
 		};
+		CF5C86CD2B6F8EDF00C16A11 /* PriorityQueue */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C86CE2B6F8EFB00C16A11 /* PriorityQueue.swift */,
+				CF5C86D02B6F8FF500C16A11 /* PriorityQueueTests.swift */,
+			);
+			path = PriorityQueue;
+			sourceTree = "<group>";
+		};
 		CFB081AC2B403219006029A8 /* LinkedList */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF5C86CF2B6F8EFB00C16A11 /* PriorityQueue.swift in Sources */,
 				CF5C86B12B5BBE5300C16A11 /* BinaryTreeTests.swift in Sources */,
 				CF3197582B3DDF4F000A56DC /* Node.swift in Sources */,
 				CF5C86B32B5C036700C16A11 /* BinarySearchTree.swift in Sources */,
@@ -339,6 +354,7 @@
 				CF5C86CC2B6E652100C16A11 /* HeapTests.swift in Sources */,
 				CF5C86A32B597CFD00C16A11 /* QueueStackTests.swift in Sources */,
 				CF5C86C22B60DD0300C16A11 /* TrieTests.swift in Sources */,
+				CF5C86D12B6F8FF500C16A11 /* PriorityQueueTests.swift in Sources */,
 				CF5C86992B583F1A00C16A11 /* RingBuffer.swift in Sources */,
 				CF5C86A12B597A7400C16A11 /* QueueStack.swift in Sources */,
 				CF5C86B62B5C062B00C16A11 /* BinarySearchTreeTests.swift in Sources */,
