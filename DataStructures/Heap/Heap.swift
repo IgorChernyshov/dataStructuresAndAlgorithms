@@ -7,8 +7,8 @@
 
 struct Heap<Element: Equatable> {
 
-	private var elements: [Element]
-	private let sort: (Element, Element) -> Bool
+	var elements: [Element]
+	let sort: (Element, Element) -> Bool
 
 	init(elements: [Element], sort: @escaping (Element, Element) -> Bool) {
 		self.elements = elements
@@ -52,7 +52,7 @@ struct Heap<Element: Equatable> {
 		return elements.removeLast()
 	}
 
-	mutating func siftDown(from index: Int) {
+	mutating func siftDown(from index: Int, upTo endIndex: Int? = nil) {
 		var parent = index
 
 		while true {
@@ -60,10 +60,10 @@ struct Heap<Element: Equatable> {
 			let right = rightChildIndex(ofParentAt: parent)
 			var candidate = parent
 
-			if left < count && sort(elements[left], elements[candidate]) {
+			if left < endIndex ?? count && sort(elements[left], elements[candidate]) {
 				candidate = left
 			}
-			if right < count && sort(elements[right], elements[candidate]) {
+			if right < endIndex ?? count && sort(elements[right], elements[candidate]) {
 				candidate = right
 			}
 			if candidate == parent {

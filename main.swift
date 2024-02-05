@@ -23,4 +23,5 @@ import Foundation
 // SelectionSortTests().runTests()
 // InsertionSortTests().runTests()
 // MergeSortTests().runTests()
-RadixSortTests().runTests()
+// RadixSortTests().runTests()
+HeapSortTests().runTests()
