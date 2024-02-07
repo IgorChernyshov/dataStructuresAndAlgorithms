@@ -36,6 +36,11 @@ struct GraphTests {
 		graph.add(.undirected, from: sanFrancisco, to: seattle, weight: 218)
 		graph.add(.undirected, from: austinTexas, to: sanFrancisco, weight: 297)
 
+		print("Adjacency matrix breadth first search\n")
+		let vertices = graph.breadthFirstSearch(from: singapore)
+		vertices.forEach { vertex in print(vertex) }
+
+		print("Adjacency matrix visualisation")
 		print(graph)
 	}
 }

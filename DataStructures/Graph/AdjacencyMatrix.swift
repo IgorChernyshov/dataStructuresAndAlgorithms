@@ -48,8 +48,6 @@ final class AdjacencyMatrix<T>: Graph {
 
 extension AdjacencyMatrix: CustomStringConvertible {
 	var description: String {
-		let verticesDescription = vertices.map { "\($0)" }.joined(separator: "\n")
-
 		var grid: [String] = []
 		for i in 0..<weights.count {
 			var row = ""
@@ -63,7 +61,7 @@ extension AdjacencyMatrix: CustomStringConvertible {
 			grid.append(row)
 		}
 		let edgesDescription = grid.joined(separator: "\n")
-		// 3
-		return "\(verticesDescription)\n\n\(edgesDescription)"
+
+		return edgesDescription
 	}
 }

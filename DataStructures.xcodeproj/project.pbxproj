@@ -54,6 +54,7 @@
 		CF5C86FF2B727C4800C16A11 /* AdjacencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C86FE2B727C4800C16A11 /* AdjacencyList.swift */; };
 		CF5C87022B7286C500C16A11 /* GraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C87012B7286C500C16A11 /* GraphTests.swift */; };
 		CF5C87042B73A9D100C16A11 /* AdjacencyMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C87032B73A9D100C16A11 /* AdjacencyMatrix.swift */; };
+		CF5C87072B73B62A00C16A11 /* BreadthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C87062B73B62A00C16A11 /* BreadthFirstSearch.swift */; };
 		CFB081AF2B40324F006029A8 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB081AE2B40324F006029A8 /* Stack.swift */; };
 		CFB081B12B40326E006029A8 /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB081B02B40326E006029A8 /* StackTests.swift */; };
 		CFB081B42B42B7C5006029A8 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB081B32B42B7C5006029A8 /* Queue.swift */; };
@@ -122,6 +123,7 @@
 		CF5C86FE2B727C4800C16A11 /* AdjacencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyList.swift; sourceTree = "<group>"; };
 		CF5C87012B7286C500C16A11 /* GraphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphTests.swift; sourceTree = "<group>"; };
 		CF5C87032B73A9D100C16A11 /* AdjacencyMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyMatrix.swift; sourceTree = "<group>"; };
+		CF5C87062B73B62A00C16A11 /* BreadthFirstSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreadthFirstSearch.swift; sourceTree = "<group>"; };
 		CFB081AE2B40324F006029A8 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		CFB081B02B40326E006029A8 /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
 		CFB081B32B42B7C5006029A8 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -296,6 +298,7 @@
 		CF5C86D32B6F922E00C16A11 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				CF5C87052B73B61300C16A11 /* BreadthFirstSearch */,
 				CF5C86D42B6F923700C16A11 /* BubbleSort */,
 				CF5C86ED2B6FE13B00C16A11 /* HeapSort */,
 				CF5C86DE2B6FC3D700C16A11 /* InsertionSort */,
@@ -381,6 +384,14 @@
 				CF5C87012B7286C500C16A11 /* GraphTests.swift */,
 			);
 			path = Graph;
+			sourceTree = "<group>";
+		};
+		CF5C87052B73B61300C16A11 /* BreadthFirstSearch */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C87062B73B62A00C16A11 /* BreadthFirstSearch.swift */,
+			);
+			path = BreadthFirstSearch;
 			sourceTree = "<group>";
 		};
 		CFB081AC2B403219006029A8 /* LinkedList */ = {
@@ -503,6 +514,7 @@
 				CF5C86D62B6F923F00C16A11 /* BubbleSort.swift in Sources */,
 				CF5C86E02B6FC3E700C16A11 /* InsertionSort.swift in Sources */,
 				CF5C86A32B597CFD00C16A11 /* QueueStackTests.swift in Sources */,
+				CF5C87072B73B62A00C16A11 /* BreadthFirstSearch.swift in Sources */,
 				CF5C87022B7286C500C16A11 /* GraphTests.swift in Sources */,
 				CF5C86EC2B6FE0B200C16A11 /* RadixSortTests.swift in Sources */,
 				CF5C86F92B72794800C16A11 /* Graph.swift in Sources */,
