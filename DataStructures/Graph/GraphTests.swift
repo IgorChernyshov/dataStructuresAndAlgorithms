@@ -12,7 +12,7 @@ struct GraphTests {
 	}
 
 	private func testCreateGraph() {
-		let graph = AdjacencyList<String>()
+		let graph = AdjacencyMatrix<String>()
 
 		let singapore = graph.createVertex(data: "Singapore")
 		let tokyo = graph.createVertex(data: "Tokyo")

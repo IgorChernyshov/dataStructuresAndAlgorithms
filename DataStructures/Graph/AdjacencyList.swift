@@ -19,21 +19,9 @@ class AdjacencyList<T>: Graph {
 		return vertex
 	}
 
-	func add(_ edge: EdgeType, from source: Vertex<T>, to destination: Vertex<T>, weight: Double?) {
-		switch edge {
-		case .directed: addDirectedEdge(from: source, to: destination, weight: weight)
-		case .undirected: addUndirectedEdge(between: source, and: destination, weight: weight)
-		}
-	}
-
 	func addDirectedEdge(from source: Vertex<T>, to destination: Vertex<T>, weight: Double?) {
 		let edge = Edge(source: source, destination: destination, weight: weight)
 		adjacencies[source]?.append(edge)
-	}
-
-	func addUndirectedEdge(between source: Vertex<T>, and destination: Vertex<T>, weight: Double?) {
-		addDirectedEdge(from: source, to: destination, weight: weight)
-		addDirectedEdge(from: destination, to: source, weight: weight)
 	}
 	
 	func edges(from source: Vertex<T>) -> [Edge<T>] {
