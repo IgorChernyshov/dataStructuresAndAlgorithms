@@ -12,7 +12,7 @@ struct GraphTests {
 	}
 
 	private func testCreateGraph() {
-		let graph = AdjacencyMatrix<String>()
+		let graph = AdjacencyList<String>()
 
 		let singapore = graph.createVertex(data: "Singapore")
 		let tokyo = graph.createVertex(data: "Tokyo")
@@ -43,6 +43,14 @@ struct GraphTests {
 		print("\nAdjacency matrix breadth first search")
 		let vertices2 = graph.depthFirstSearch(from: singapore)
 		vertices2.forEach { vertex in print(vertex) }
+
+		print("\nDijkstra shortest path search")
+		let dijkstra = Dijkstra(graph: graph)
+		let pathsFromA = dijkstra.shortestPath(from: singapore)
+		let path = dijkstra.shortestPath(to: seattle, paths: pathsFromA)
+		for edge in path {
+			print("\(edge.source) --(\(edge.weight ?? 0.0))--> \(edge.destination)")
+		}
 
 		print("\nAdjacency matrix visualisation")
 		print(graph)

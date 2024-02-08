@@ -21,6 +21,7 @@ struct PriorityQueue<Element: Equatable>: Queue {
 		heap.peek()
 	}
 
+	@discardableResult
 	mutating func enqueue(_ element: Element) -> Bool {
 		heap.insert(element)
 		return true
